@@ -1,0 +1,71 @@
+.mensclothing-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .mensclothing-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    align-items: center;  
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 300px;
+    height: 650px;  
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;  
+  }
+  
+  .mensclothing-card h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .mensclothing-card h2 {
+    font-size: 22px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .mensclothing-card .item-image {
+    width: 200px;  
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .mensclothing-card p {
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+    flex-grow: 1;
+  }
+  
+  .mensclothing-card .button-container {
+    display: flex;
+    justify-content: space-between;  
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .mensclothing-card .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .mensclothing-card .btn:hover {
+    background-color: #0056b3;
+  }
+  

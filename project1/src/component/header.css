@@ -1,0 +1,59 @@
+/* Styling for the header content */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #1E3E62;  
+}
+
+.logo {
+  width: 75px;  
+  margin-left: 25px;
+}
+
+h1 {
+  font-size: 35px;
+  margin: 0;
+  color: white;  
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-heading {
+  text-decoration: none;  
+  color: white;  
+  font-size: 30px;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+.nav-heading:hover {
+  color: #f0a500;  
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px; 
+  margin-right: 25px; 
+}
+
+.signin-btn, .signup-btn {
+  background-color: #f0a500;  
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signin-btn:hover, .signup-btn:hover {
+  background-color: #d48800;  
+}
+
+.signin-btn, .signup-btn {
+  width: 120px;  
+}

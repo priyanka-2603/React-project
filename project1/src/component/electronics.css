@@ -1,0 +1,72 @@
+
+
+.electronics-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+  gap: 20px;
+  padding: 20px;
+}
+
+.electronics-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+  align-items: center;  
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 350px;
+  height: 800px;  
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;  
+}
+
+.electronics-card h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.electronics-card h2 {
+  font-size: 22px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.electronics-card .item-image {
+  width: 250px;  
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.electronics-card p {
+  font-size: 16px;
+  color: #777;
+  margin-top: 10px;
+  flex-grow: 1;
+}
+
+.electronics-card .button-container {
+  display: flex;
+  justify-content: space-between;  
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.electronics-card .btn {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+  width: 150px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.electronics-card .btn:hover {
+  background-color: #0056b3;
+}
